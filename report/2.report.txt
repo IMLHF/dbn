@@ -1,0 +1,252 @@
+RBM_0 training : Epoch 0 lost 0.0572989
+RBM_0 training : Epoch 1 lost 0.0376557
+RBM_0 training : Epoch 2 lost 0.0377759
+RBM_0 training : Epoch 3 lost 0.0380863
+RBM_0 training : Epoch 4 lost 0.0381568
+RBM_0 training : Epoch 5 lost 0.038004
+RBM_0 training : Epoch 6 lost 0.0377332
+RBM_0 training : Epoch 7 lost 0.0373517
+RBM_0 training : Epoch 8 lost 0.0369267
+RBM_0 training : Epoch 9 lost 0.0364408
+RBM_0 training : Epoch 10 lost 0.0359921
+RBM_0 training : Epoch 11 lost 0.0355192
+RBM_0 training : Epoch 12 lost 0.0350844
+RBM_0 training : Epoch 13 lost 0.0346245
+RBM_0 training : Epoch 14 lost 0.0342068
+RBM_0 training : Epoch 15 lost 0.033814
+RBM_0 training : Epoch 16 lost 0.0334414
+RBM_0 training : Epoch 17 lost 0.0330656
+RBM_0 training : Epoch 18 lost 0.0326805
+RBM_0 training : Epoch 19 lost 0.0323401
+RBM_0 training : Epoch 20 lost 0.0319872
+RBM_0 training : Epoch 21 lost 0.0316518
+RBM_0 training : Epoch 22 lost 0.0313324
+RBM_0 training : Epoch 23 lost 0.0310015
+RBM_0 training : Epoch 24 lost 0.0307115
+RBM_0 training : Epoch 25 lost 0.0304067
+RBM_0 training : Epoch 26 lost 0.0301485
+RBM_0 training : Epoch 27 lost 0.0298719
+RBM_0 training : Epoch 28 lost 0.0296034
+RBM_0 training : Epoch 29 lost 0.029328
+RBM_0 training : Epoch 30 lost 0.0290503
+RBM_0 training : Epoch 31 lost 0.028829
+RBM_0 training : Epoch 32 lost 0.0285856
+RBM_0 training : Epoch 33 lost 0.0283765
+RBM_0 training : Epoch 34 lost 0.0281236
+RBM_0 training : Epoch 35 lost 0.0279239
+RBM_0 training : Epoch 36 lost 0.0276922
+RBM_0 training : Epoch 37 lost 0.027474
+RBM_0 training : Epoch 38 lost 0.0272797
+RBM_0 training : Epoch 39 lost 0.0270847
+RBM_0 training : Epoch 40 lost 0.0268639
+RBM_0 training : Epoch 41 lost 0.0266969
+RBM_0 training : Epoch 42 lost 0.0265011
+RBM_0 training : Epoch 43 lost 0.0263168
+RBM_0 training : Epoch 44 lost 0.0261443
+RBM_0 training : Epoch 45 lost 0.0259657
+RBM_0 training : Epoch 46 lost 0.025789
+RBM_0 training : Epoch 47 lost 0.0256413
+RBM_0 training : Epoch 48 lost 0.0254742
+RBM_0 training : Epoch 49 lost 0.0253238
+RBM_1 training : Epoch 0 lost 0.0337981
+RBM_1 training : Epoch 1 lost 0.0104599
+RBM_1 training : Epoch 2 lost 0.00947886
+RBM_1 training : Epoch 3 lost 0.00897269
+RBM_1 training : Epoch 4 lost 0.00863681
+RBM_1 training : Epoch 5 lost 0.00835911
+RBM_1 training : Epoch 6 lost 0.00813031
+RBM_1 training : Epoch 7 lost 0.00792607
+RBM_1 training : Epoch 8 lost 0.00777282
+RBM_1 training : Epoch 9 lost 0.00760864
+RBM_1 training : Epoch 10 lost 0.00748998
+RBM_1 training : Epoch 11 lost 0.00736508
+RBM_1 training : Epoch 12 lost 0.00725196
+RBM_1 training : Epoch 13 lost 0.00715955
+RBM_1 training : Epoch 14 lost 0.00706753
+RBM_1 training : Epoch 15 lost 0.00699358
+RBM_1 training : Epoch 16 lost 0.00691391
+RBM_1 training : Epoch 17 lost 0.00685208
+RBM_1 training : Epoch 18 lost 0.00678083
+RBM_1 training : Epoch 19 lost 0.00672304
+RBM_1 training : Epoch 20 lost 0.00667311
+RBM_1 training : Epoch 21 lost 0.00662564
+RBM_1 training : Epoch 22 lost 0.00657758
+RBM_1 training : Epoch 23 lost 0.00652429
+RBM_1 training : Epoch 24 lost 0.00648502
+RBM_1 training : Epoch 25 lost 0.00644217
+RBM_1 training : Epoch 26 lost 0.00640972
+RBM_1 training : Epoch 27 lost 0.00637264
+RBM_1 training : Epoch 28 lost 0.00632858
+RBM_1 training : Epoch 29 lost 0.00629374
+RBM_1 training : Epoch 30 lost 0.00626246
+RBM_1 training : Epoch 31 lost 0.0062294
+RBM_1 training : Epoch 32 lost 0.00620515
+RBM_1 training : Epoch 33 lost 0.00617253
+RBM_1 training : Epoch 34 lost 0.00614812
+RBM_1 training : Epoch 35 lost 0.0061261
+RBM_1 training : Epoch 36 lost 0.00609449
+RBM_1 training : Epoch 37 lost 0.00607192
+RBM_1 training : Epoch 38 lost 0.00604897
+RBM_1 training : Epoch 39 lost 0.0060158
+RBM_1 training : Epoch 40 lost 0.00600411
+RBM_1 training : Epoch 41 lost 0.00598075
+RBM_1 training : Epoch 42 lost 0.00596632
+RBM_1 training : Epoch 43 lost 0.00593347
+RBM_1 training : Epoch 44 lost 0.0059276
+RBM_1 training : Epoch 45 lost 0.00590311
+RBM_1 training : Epoch 46 lost 0.00588431
+RBM_1 training : Epoch 47 lost 0.00586825
+RBM_1 training : Epoch 48 lost 0.00585102
+RBM_1 training : Epoch 49 lost 0.00583018
+RBM_2 training : Epoch 0 lost 0.0553451
+RBM_2 training : Epoch 1 lost 0.0393773
+RBM_2 training : Epoch 2 lost 0.0359158
+RBM_2 training : Epoch 3 lost 0.0331792
+RBM_2 training : Epoch 4 lost 0.0311283
+RBM_2 training : Epoch 5 lost 0.0295937
+RBM_2 training : Epoch 6 lost 0.0283623
+RBM_2 training : Epoch 7 lost 0.0273782
+RBM_2 training : Epoch 8 lost 0.0265415
+RBM_2 training : Epoch 9 lost 0.0258367
+RBM_2 training : Epoch 10 lost 0.0252305
+RBM_2 training : Epoch 11 lost 0.0247048
+RBM_2 training : Epoch 12 lost 0.0242021
+RBM_2 training : Epoch 13 lost 0.0237553
+RBM_2 training : Epoch 14 lost 0.0233672
+RBM_2 training : Epoch 15 lost 0.0230027
+RBM_2 training : Epoch 16 lost 0.0226917
+RBM_2 training : Epoch 17 lost 0.0223763
+RBM_2 training : Epoch 18 lost 0.0220535
+RBM_2 training : Epoch 19 lost 0.0217926
+RBM_2 training : Epoch 20 lost 0.0215563
+RBM_2 training : Epoch 21 lost 0.0212982
+RBM_2 training : Epoch 22 lost 0.0210864
+RBM_2 training : Epoch 23 lost 0.0208848
+RBM_2 training : Epoch 24 lost 0.020675
+RBM_2 training : Epoch 25 lost 0.020487
+RBM_2 training : Epoch 26 lost 0.0203226
+RBM_2 training : Epoch 27 lost 0.0201411
+RBM_2 training : Epoch 28 lost 0.0199546
+RBM_2 training : Epoch 29 lost 0.0198231
+RBM_2 training : Epoch 30 lost 0.0196616
+RBM_2 training : Epoch 31 lost 0.0195155
+RBM_2 training : Epoch 32 lost 0.0193923
+RBM_2 training : Epoch 33 lost 0.0192443
+RBM_2 training : Epoch 34 lost 0.0191256
+RBM_2 training : Epoch 35 lost 0.0189967
+RBM_2 training : Epoch 36 lost 0.0188592
+RBM_2 training : Epoch 37 lost 0.0187602
+RBM_2 training : Epoch 38 lost 0.0186357
+RBM_2 training : Epoch 39 lost 0.018539
+RBM_2 training : Epoch 40 lost 0.018437
+RBM_2 training : Epoch 41 lost 0.0183308
+RBM_2 training : Epoch 42 lost 0.0182403
+RBM_2 training : Epoch 43 lost 0.0181505
+RBM_2 training : Epoch 44 lost 0.0180531
+RBM_2 training : Epoch 45 lost 0.0179737
+RBM_2 training : Epoch 46 lost 0.0178883
+RBM_2 training : Epoch 47 lost 0.0178
+RBM_2 training : Epoch 48 lost 0.0177215
+RBM_2 training : Epoch 49 lost 0.0176335
+RBM_3 training : Epoch 0 lost 0.0642573
+RBM_3 training : Epoch 1 lost 0.037093
+RBM_3 training : Epoch 2 lost 0.0349594
+RBM_3 training : Epoch 3 lost 0.0328321
+RBM_3 training : Epoch 4 lost 0.0308411
+RBM_3 training : Epoch 5 lost 0.0291955
+RBM_3 training : Epoch 6 lost 0.0278964
+RBM_3 training : Epoch 7 lost 0.026897
+RBM_3 training : Epoch 8 lost 0.0260748
+RBM_3 training : Epoch 9 lost 0.0254026
+RBM_3 training : Epoch 10 lost 0.0248448
+RBM_3 training : Epoch 11 lost 0.0243591
+RBM_3 training : Epoch 12 lost 0.0239361
+RBM_3 training : Epoch 13 lost 0.0235508
+RBM_3 training : Epoch 14 lost 0.0232238
+RBM_3 training : Epoch 15 lost 0.0228998
+RBM_3 training : Epoch 16 lost 0.0226274
+RBM_3 training : Epoch 17 lost 0.0223765
+RBM_3 training : Epoch 18 lost 0.0221544
+RBM_3 training : Epoch 19 lost 0.0219366
+RBM_3 training : Epoch 20 lost 0.0217284
+RBM_3 training : Epoch 21 lost 0.0215335
+RBM_3 training : Epoch 22 lost 0.0213743
+RBM_3 training : Epoch 23 lost 0.0211965
+RBM_3 training : Epoch 24 lost 0.021044
+RBM_3 training : Epoch 25 lost 0.0208571
+RBM_3 training : Epoch 26 lost 0.0207036
+RBM_3 training : Epoch 27 lost 0.0205325
+RBM_3 training : Epoch 28 lost 0.0203828
+RBM_3 training : Epoch 29 lost 0.0201969
+RBM_3 training : Epoch 30 lost 0.0200301
+RBM_3 training : Epoch 31 lost 0.0198266
+RBM_3 training : Epoch 32 lost 0.0196438
+RBM_3 training : Epoch 33 lost 0.019483
+RBM_3 training : Epoch 34 lost 0.0192581
+RBM_3 training : Epoch 35 lost 0.0190584
+RBM_3 training : Epoch 36 lost 0.0188651
+RBM_3 training : Epoch 37 lost 0.0186621
+RBM_3 training : Epoch 38 lost 0.0184792
+RBM_3 training : Epoch 39 lost 0.0183238
+RBM_3 training : Epoch 40 lost 0.0181824
+RBM_3 training : Epoch 41 lost 0.018047
+RBM_3 training : Epoch 42 lost 0.0179126
+RBM_3 training : Epoch 43 lost 0.0177661
+RBM_3 training : Epoch 44 lost 0.0176504
+RBM_3 training : Epoch 45 lost 0.0175165
+RBM_3 training : Epoch 46 lost 0.0174367
+RBM_3 training : Epoch 47 lost 0.0173015
+RBM_3 training : Epoch 48 lost 0.0172078
+RBM_3 training : Epoch 49 lost 0.0171097
+NNET Traing : Epoch: 0001 Avg_Loss=-0.08337624739238983
+NNET Traing : Epoch: 0002 Avg_Loss=-0.08382810553262282
+NNET Traing : Epoch: 0003 Avg_Loss=-0.08425607410691559
+NNET Traing : Epoch: 0004 Avg_Loss=-0.0846616911825601
+NNET Traing : Epoch: 0005 Avg_Loss=-0.0850464506617516
+NNET Traing : Epoch: 0006 Avg_Loss=-0.08541180723127502
+NNET Traing : Epoch: 0007 Avg_Loss=-0.08575914431979892
+NNET Traing : Epoch: 0008 Avg_Loss=-0.08608978047168056
+NNET Traing : Epoch: 0009 Avg_Loss=-0.0864049853075357
+NNET Traing : Epoch: 0010 Avg_Loss=-0.08670595944761397
+NNET Traing : Epoch: 0011 Avg_Loss=-0.08699383088203022
+NNET Traing : Epoch: 0012 Avg_Loss=-0.08726964010433721
+NNET Traing : Epoch: 0013 Avg_Loss=-0.0875343552037275
+NNET Traing : Epoch: 0014 Avg_Loss=-0.0877888577106672
+NNET Traing : Epoch: 0015 Avg_Loss=-0.08803396303823217
+NNET Traing : Epoch: 0016 Avg_Loss=-0.08827041426460784
+NNET Traing : Epoch: 0017 Avg_Loss=-0.08849889500227288
+NNET Traing : Epoch: 0018 Avg_Loss=-0.0887200329235662
+NNET Traing : Epoch: 0019 Avg_Loss=-0.08893438465111743
+NNET Traing : Epoch: 0020 Avg_Loss=-0.08914245531345022
+NNET Traing : Epoch: 0021 Avg_Loss=-0.08934471691960776
+NNET Traing : Epoch: 0022 Avg_Loss=-0.08954158942877272
+NNET Traing : Epoch: 0023 Avg_Loss=-0.08973345502620529
+NNET Traing : Epoch: 0024 Avg_Loss=-0.08992066432337661
+NNET Traing : Epoch: 0025 Avg_Loss=-0.09010353173826124
+NNET Traing : Epoch: 0026 Avg_Loss=-0.09028235133433406
+NNET Traing : Epoch: 0027 Avg_Loss=-0.09045739044676297
+NNET Traing : Epoch: 0028 Avg_Loss=-0.09062888728571944
+NNET Traing : Epoch: 0029 Avg_Loss=-0.09079706535125398
+NNET Traing : Epoch: 0030 Avg_Loss=-0.0909621283967734
+NNET Traing : Epoch: 0031 Avg_Loss=-0.09112426155791697
+NNET Traing : Epoch: 0032 Avg_Loss=-0.09128363803897424
+NNET Traing : Epoch: 0033 Avg_Loss=-0.09144041260014053
+NNET Traing : Epoch: 0034 Avg_Loss=-0.09159472749713973
+NNET Traing : Epoch: 0035 Avg_Loss=-0.09174671788246207
+NNET Traing : Epoch: 0036 Avg_Loss=-0.09189651060701813
+NNET Traing : Epoch: 0037 Avg_Loss=-0.0920442181068422
+NNET Traing : Epoch: 0038 Avg_Loss=-0.09218994448165513
+NNET Traing : Epoch: 0039 Avg_Loss=-0.09233378891622553
+NNET Traing : Epoch: 0040 Avg_Loss=-0.09247583965390992
+NNET Traing : Epoch: 0041 Avg_Loss=-0.09261617800850414
+NNET Traing : Epoch: 0042 Avg_Loss=-0.09275488225452276
+NNET Traing : Epoch: 0043 Avg_Loss=-0.09289202627254813
+NNET Traing : Epoch: 0044 Avg_Loss=-0.09302767652731678
+NNET Traing : Epoch: 0045 Avg_Loss=-0.09316189173774002
+NNET Traing : Epoch: 0046 Avg_Loss=-0.09329473185580937
+NNET Traing : Epoch: 0047 Avg_Loss=-0.09342625000815849
+NNET Traing : Epoch: 0048 Avg_Loss=-0.093556495761121
+NNET Traing : Epoch: 0049 Avg_Loss=-0.09368551562438199
+NNET Traing : Epoch: 0050 Avg_Loss=-0.09381335426669027
+Optimizer Finished!
+Error: 0.05858232

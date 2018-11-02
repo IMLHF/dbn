@@ -1,0 +1,13 @@
+name,NN_tuning,RBM_Layer,RBM_Learning_Rate,DBN_Layer,NN_Layer,方差,loss,epoches
+1,No,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.048053645,noCE,50
+2,Yes,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.05858232,noCE,50
+3,No,linear_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.050020993,noCE,50
+4,Yes,linear_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.05630573,noCE,50
+5,\,\,\,\,[784 1000 500 250 30 250 500 1000 784],0.48522067,noCE,50
+6,\,\,\,\,[784 1000 500 250 30 250 500 1000 784],0.5274639,CE,50
+7,Yes,linear_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.074350156,CE,50
+8,Yes,linear_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.045612834,CE,50,sigmoid_cross_entropy
+9,\,\,\,\,[784 1000 500 250 30 250 500 1000 784],0.06839129,CE,50,sigmoid_cross_entropy
+10,\,\,\,\,[784 1000 500 250 30 250 500 1000 784],0.06749166,CE,2000,sigmoid_cross_entropy
+11,Yes,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.04463987,CE,50,sigmoid_cross_entropy
+11,Yes,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.046577305,CE,50,MSE
