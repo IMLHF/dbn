@@ -85,6 +85,7 @@ class NN(object):
     # TODO fix loss fun
     loss_cross_entropy = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(
         logits=y_output, labels=y_target))
+    # loss_cross_entropy = tf.reduce_mean(tf.square(tf.subtract(tf.nn.sigmoid(y_output), y_target)))
     # loss_cross_entropy = -tf.reduce_mean(y_target*y_output)
     # loss_cross_entropy = -tf.reduce_mean(y_target*tf.log(y_output))
     train_op = tf.train.GradientDescentOptimizer(
@@ -104,7 +105,7 @@ class NN(object):
             e_site = len(X)
           x_batch = X[s_site:e_site]
           y_batch = Y[s_site:e_site]
-          _, lost_t = session_t.run([train_op, loss_cross_entropy],
+          lost_t, _ = session_t.run([loss_cross_entropy,train_op],
                                     feed_dict={
               x_input: x_batch,
               y_target: y_batch

@@ -10,4 +10,8 @@ name,NN_tuning,RBM_Layer,RBM_Learning_Rate,DBN_Layer,NN_Layer,方差,loss,epoche
 9,\,\,\,\,[784 1000 500 250 30 250 500 1000 784],0.06839129,CE,50,sigmoid_cross_entropy
 10,\,\,\,\,[784 1000 500 250 30 250 500 1000 784],0.06749166,CE,2000,sigmoid_cross_entropy
 11,Yes,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.04463987,CE,50,sigmoid_cross_entropy
-11,Yes,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.046577305,CE,50,MSE
+12,Yes,logical_hidden_unit_rbm,0.01,[784 1000 500 250 30],<-,0.046577305,CE,50,MSE
+13,更改预训练方式，一个epoch预训练整个dbn,0.044622105,30minute
+14,更改为rmb0，测试dbn和nn的连接方式，保留session,20minute,节省30%时间
+
+

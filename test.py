@@ -7,6 +7,10 @@ from nn import NN
 from tensorflow.examples.tutorials.mnist import input_data
 from PIL import Image, ImageDraw,ImageFont
 import matplotlib.pyplot as plt
+import os
+from print_ import print_
+import datetime
+os.environ['CUDA_VISIBLE_DEVICES']='-1'
 
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
@@ -18,6 +22,31 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 class Test(object):
   def __init__(self):
     pass
+
+  def test_another_rbmtrain(self,n):
+    _dbn = DBN([784, 1000, 500, 250, 30], learning_rate=0.01, cd_k=1)
+    print(len(mnist.train.images))
+    for j in range(5):
+      for i in range(10):
+        _dbn.pretrain(mnist.train.images[i*5500:i*5500+5500], 128, 5)
+
+    _nnet = NN([784, 1000, 500, 250, 30, 250, 500, 1000, 784], 0.01, 128, 50)
+    _nnet.load_from_dbn_to_reconstructNN(_dbn)
+    _nnet.train(mnist.train.images, mnist.train.images)
+    _nnet.test_linear(mnist.test.images, mnist.test.images)
+
+    x_in = mnist.test.images[:30]
+    _predict = _nnet.predict(x_in)
+    _predict_img = np.concatenate(np.reshape(_predict, [-1, 28, 28]), axis=1)
+    x_in = np.concatenate(np.reshape(x_in, [-1, 28, 28]), axis=1)
+    img = Image.fromarray(
+        (1.0-np.concatenate((_predict_img, x_in), axis=0))*255.0)
+    img = img.convert('L')
+    img.save(str(n)+'_.jpg')
+    img2 = Image.fromarray(
+        (np.concatenate((_predict_img, x_in), axis=0))*255.0)
+    img2 = img2.convert('L')
+    img2.save(str(n)+'.jpg')
 
   def test_all(self, n):
     _dbn=DBN([784,1000,500,250,30],learning_rate=0.01,cd_k=1)
@@ -78,7 +107,7 @@ class Test(object):
 
   def merge_img(self):
     white_pic_list = []
-    for i in range(1, 13):
+    for i in range(1, 14):
       index_img = Image.fromarray(255.0*np.ones([56, 100]))
       draw = ImageDraw.Draw(index_img)
       ft=ImageFont.truetype("VeraMoBI.ttf",20)
@@ -105,8 +134,11 @@ class Test(object):
 
 if __name__ == "__main__":
   test = Test()
+  print_('Start time: '+str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
   # test.rbm_test()
-  # test.test_all(11)
+  # test.test_all(14)
   # test.nn_test2()
   # test.test_print()
-  test.merge_img()
+  # test.merge_img()
+  test.test_another_rbmtrain(14)
+  print_('Over time: '+str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
