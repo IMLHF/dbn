@@ -17,7 +17,7 @@ class RBM(object):
                                      initializer=tf.random_normal_initializer())
     self._learning_rate = learning_rate
     self._CDk = CDk
-    self.session=None
+    self.session = None
 
   def _0_1_sample_given_p(self, p):
     return tf.nn.relu(tf.sign(p - tf.random_uniform(tf.shape(p))))
@@ -74,7 +74,7 @@ class RBM(object):
     x_loss = self.reconstruct(x_in)
 
     n_data = np.shape(data_x)[0]
-    n_batches = n_data // batch_size
+    n_batches = (n_data // batch_size)+1
 
     # # whether or not plot
     # if self.plot is True:
@@ -83,9 +83,9 @@ class RBM(object):
 
     errs = []
     if self.session is None:
-      self.session=tf.Session()
+      self.session = tf.Session()
       self.session.run(tf.global_variables_initializer())
-    sess=self.session
+    sess = self.session
     mean_cost = []
     for epoch in range(n_epoches):
       mean_cost = []
@@ -96,7 +96,7 @@ class RBM(object):
         else:
           e_site = len(data_x)
         batch_x = data_x[s_site:e_site]
-        cost = sess.run(x_loss, feed_dict={x_in: batch_x}) #loss在前
+        cost = sess.run(x_loss, feed_dict={x_in: batch_x})  # loss在前
         sess.run(rbm_pretrain, feed_dict={x_in: batch_x})
         mean_cost.append(cost)
       errs.append(np.mean(mean_cost))

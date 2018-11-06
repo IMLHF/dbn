@@ -96,7 +96,7 @@ class NN(object):
       session_t.run(init)
       for epoch in range(n_epoches):
         avg_lost = 0.0
-        total_batch = len(X)//batch_size
+        total_batch = (len(X)//batch_size)+1
         for i in range(total_batch):
           s_site = i*batch_size
           if(s_site+batch_size <= len(X)):

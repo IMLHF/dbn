@@ -96,7 +96,7 @@ class RBM(object):
     x_loss = self.reconstruct(x_in, weight, v_bias, h_bias)
 
     n_data = np.shape(data_x)[0]
-    n_batches = n_data // batch_size
+    n_batches = (n_data // batch_size)+1
 
     # # whether or not plot
     # if self.plot is True:
