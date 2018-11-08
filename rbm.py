@@ -73,8 +73,9 @@ class RBM(object):
     rbm_pretrain = self._rbm_train_epoche(x_in)
     x_loss = self.reconstruct(x_in)
 
-    n_data = np.shape(data_x)[0]
-    n_batches = (n_data // batch_size)+1
+    x_len = np.shape(data_x)[0]
+    n_batches = x_len//batch_size if (x_len % batch_size == 0) else ((
+        x_len//batch_size)+1)
 
     # # whether or not plot
     # if self.plot is True:
